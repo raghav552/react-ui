@@ -1,15 +1,18 @@
 import React from "react";
-import { teamdata } from "../../Data/Team";
-import TeamCard from "../Card/TeamCard";
+import { teamdata } from "../../../Data/Team";
+import TeamCard from "../../Card/TeamCard";
+import useAnimateOnScroll from "../../Hooks/useAnimateOnScroll";
 
 const TeamSectionExtend = () => {
+    useAnimateOnScroll();
+
     return(
         <>
-            <div className="section spacious-top">
+            <div className="section">
                 <div className="hero-container">
                     <div className="d-flex flex-column gspace-2">
                         <div className="team-heading-container">
-                            <div className="sub-heading">
+                            <div className="sub-heading justify-content-center">
                                 <i className="fa-solid fa-circle-notch"></i>
                                 <h6 className="font-family-1 accent-color-1">Our Team</h6>
                             </div>
@@ -28,3 +31,4 @@ const TeamSectionExtend = () => {
 }
 
 export default TeamSectionExtend;
+

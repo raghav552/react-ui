@@ -1,5 +1,5 @@
 import React from "react";
-import BannerInnerSection from "../../Components/Banner/inner";
+import BannerInnerSection from "../../Components/Banner/Inner";
 import FaqSection from "../../Components/Faq";
 import HeadTitle from "../../Components/Head/HeadTitle";
 

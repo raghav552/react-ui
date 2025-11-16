@@ -1,6 +1,6 @@
 import React from "react";
-import BannerInnerSection from "../../Components/Banner/inner";
-import BlogSectionExtend from "../../Components/Blog/extend";
+import BannerInnerSection from "../../Components/Banner/Inner";
+import BlogSectionExtend from "../../Components/Blog/Extend";
 import HeadTitle from "../../Components/Head/HeadTitle";
 
 const BlogPage = () => {

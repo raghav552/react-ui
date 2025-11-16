@@ -35,7 +35,7 @@ const Footer = () => {
                                                 <i className="fa-solid fa-phone"></i>
                                                 <span>{BRAND.phone}</span>
                                             </div>
-                                            </li>
+                                                </li>
                                     </ul>
                                 </div>
                                 <div className="footer-quick-links">
@@ -106,3 +106,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

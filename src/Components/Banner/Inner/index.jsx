@@ -19,6 +19,7 @@ const BannerInnerSection = ({title, currentPage}) => {
             </div>
         </>
     );
-}
+};
 
 export default BannerInnerSection;
+

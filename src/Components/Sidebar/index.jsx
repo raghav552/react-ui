@@ -7,7 +7,7 @@ function Sidebar() {
     const sidebarRef = useRef(null);
 
     useEffect(() => {
-        const menuBtn = document.querySelector(".nav-btn"); // tombol dari Navbar
+        const menuBtn = document.querySelector(".nav-btn");
         const closeBtn = sidebarRef.current?.querySelector(".close-btn");
         const overlay = overlayRef.current;
         const sidebar = sidebarRef.current;
@@ -162,3 +162,4 @@ function Sidebar() {
 }
 
 export default Sidebar;
+
